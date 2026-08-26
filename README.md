@@ -13,6 +13,8 @@ Across those areas, I keep returning to the same question: when a system is slow
 - **Code retrieval at UMD:** I study how training-data quality shapes retrieval performance, including cases where better data matters more than changing the model architecture.
 - **Geospatial ML with UMD Team AGWA:** I lead the code and data work for a funded, eight-person project building a multi-source pipeline to forecast groundwater salinity across Maryland's Eastern Shore.
 
+Much of my current research code lives in private or organization-owned repositories. Here are the pieces I can share publicly.
+
 ## Selected work
 
 ### [Variational Quantum Linear Solver via Block Encoding for the Poisson Equation](https://arxiv.org/abs/2608.19655)

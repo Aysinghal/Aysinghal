@@ -27,11 +27,11 @@ A research framework for evaluating long-context language models and KV-cache co
 
 I rebuilt the original prototype and own the benchmark runner, backend adapters, cluster execution, metrics, tests, and documentation.
 
-## A few results that shaped how I work
+### Geometry-Aware Optimization for Quantum Machine Learning
 
-- Reduced a diffusion model's training dataset by up to 40% while keeping downstream evaluation within 1% of the full-data baseline.
-- Found across eight variational quantum tasks that simple projected updates frequently matched or beat more elaborate geometry-aware optimizers.
-- Built a multi-agent Critic-Refiner system whose generated educational content scored up to 21% higher than an existing production pipeline during evaluation.
+A three-person UMD QLearn research project comparing flat-space, projection-based, and Riemannian optimizers across eight variational quantum tasks. We found that simple projected updates frequently matched or outperformed more complex geometry-aware methods, offering the strongest reliability-to-complexity tradeoff while no single optimizer dominated every task.
+
+I led the technical work, built the experimental code, and conducted the primary analysis. Our project was selected for one of the symposium's few oral presentations.
 
 ## Technical toolkit
 

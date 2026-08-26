@@ -8,7 +8,7 @@ Across those areas, I keep returning to the same question: when a system is slow
 
 ## What I'm working on
 
-- **Long-context LLM inference at Rice University:** I am the primary developer of [Prism-Test](https://github.com/RUSH-Intelligence/Prism-test), an evaluation framework spanning four inference backends, 8+ long-context benchmark suites, and roughly 36 KV-cache compression methods.
+- **Long-context LLM inference at Rice University:** I am the primary developer of [Prism-Test](https://github.com/RUSH-Intelligence/Prism-Test), an evaluation framework spanning four inference backends, 8+ long-context benchmark suites, and roughly 36 KV-cache compression methods.
 - **Quantum algorithms at BosonQ Psi:** I develop and benchmark variational quantum linear solvers for scientific computing, with a focus on reliable optimization, faster experiments, and reproducible evaluation.
 - **Code retrieval at UMD:** I study how training-data quality shapes retrieval performance, including cases where better data matters more than changing the model architecture.
 - **Geospatial ML with UMD Team AGWA:** I lead the code and data work for a funded, eight-person project building a multi-source pipeline to forecast groundwater salinity across Maryland's Eastern Shore.
@@ -23,13 +23,13 @@ An exact block-encoding approach that uses one circuit per cost-function evaluat
 
 I am the second author of five and contributed most of the implementation and experimentation. The manuscript is currently a public preprint under peer review.
 
-### [Prism-Test](https://github.com/RUSH-Intelligence/Prism-test)
+### [Prism-Test](https://github.com/RUSH-Intelligence/Prism-Test)
 
 A research framework for evaluating long-context language models and KV-cache compression methods across consistent quality, latency, throughput, memory, and cache-size measurements.
 
 I rebuilt the original prototype and own the benchmark runner, backend adapters, cluster execution, metrics, tests, and documentation.
 
-### Geometry-Aware Optimization for Quantum Machine Learning
+### [Geometry-Aware Optimization for Quantum Machine Learning](https://github.com/Aysinghal/quantum-manifold-optimization)
 
 A three-person UMD QLearn research project comparing flat-space, projection-based, and Riemannian optimizers across eight variational quantum tasks. We found that simple projected updates frequently matched or outperformed more complex geometry-aware methods, offering the strongest reliability-to-complexity tradeoff while no single optimizer dominated every task.
 
